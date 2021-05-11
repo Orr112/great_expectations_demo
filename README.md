@@ -22,8 +22,11 @@ Image provide by Great Expectations website.
 
 
 ## Motivation
-The components of this project encompass important aspects of data warehousing. The design of this project begins with the implementation of a star schema using fact and dimension related tables. In order to populate the tables, data is extracted from two different sources - song and logs files. The data is then transformed so that the data is loadable into the created tables. As a whole, this project is a good example of how to design tables and perform ETL on different sources of data.   
+A good rule of thumb for an ETL process is to test data at any point within a data pipeline in which data is handed off from one component of the pipeline to another component. Great expectations provides the ability to test at those various points along the data pipeline by providing a user friendly juypter notebook in which teams can set expectations for their data.  The team at great expectations provides a visulization of how these data checks could be implemented into a data pipeline:
 
+![Screenshot](![ge_data_checks](https://user-images.githubusercontent.com/12035590/117888338-878dc680-b277-11eb-9d62-386557a10ef9.png)
+)
+Image provided by Sam Bail at Superconductive
 
 
 ## Files
