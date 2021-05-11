@@ -1,0 +1,7 @@
+AccNumber, UserName, EmailAddress, PhoneNumber,DoB
+12345, ‘User 1’, ‘user1@test.com’,’07784521225′,2000-01-01
+21254, ‘User 2’, ‘user2@test.com’,’01254123210′,1990-12-23
+96541, ‘User 3’, ‘user3@test.com’,’01254778963′,1987-05-16
+66332, ‘User 4’, ‘user4@test.com’,’07985451236′,1975-02-21
+12354, ‘User 5’, ‘user5@test.com’,’01236321456′,1978-11-16
+45215, ‘User 6’, ‘user6@test.com’,’01478522114′,1964-06-14
