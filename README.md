@@ -24,7 +24,7 @@ Image provide by Great Expectations website.
 ## Motivation
 A good rule of thumb for an ETL process is to test data at any point within a data pipeline in which data is handed off from one component of the pipeline to another component. Great expectations provides the ability to test at those various points along the data pipeline by providing a user friendly juypter notebook in which teams can set expectations for their data.  The team at great expectations provides a visulization of how these data checks could be implemented into a data pipeline:
 
-![alt text]()
+![alt text](https://github.com/Orr112/great_expectations_demo/blob/main/ge_data_checks.png)
 Image provided by Sam Bail at Superconductive
 
 
