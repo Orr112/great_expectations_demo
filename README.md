@@ -1,5 +1,5 @@
 # great_expectations_demo
-Great expectations python library
+Great expectations python library for data testing.
 
 
 ## Table of contents
@@ -29,29 +29,26 @@ Image provided by Sam Bail at Superconductive
 
 
 ## Files
-- sql.py: this file contains create and insert table queries.
-- create_tables.py: this file connects to the database, drops old tables and then creates ables from sql.py file.
-- etl.py: this file extracts data from song and log files, transforms the data, and then loads the data into tables.
-- test.ipynb: this notebook is used to perform basic data checks on data inserted into the tables.
-- basicStats.ipynb: used to draw some basic user and song analysis. 
+- validation_playground.ipynb: this file contains create and insert table queries.
+- user_data: this file contains a small amount of data, which is purely for testing purposes.
+
 
 
 ## Technologies
 - Python 3.6
 - jupyter
-- SQL
+
 
 ## Libraries 
--psycopg2
+-great expectations
 -pandas
--glob
--os
+
 
 ## Install
-Use [pip](https://pip.pypa.io/en/stable/)(package manager) to install psycopg2 and pandas.
+Use [pip](https://pip.pypa.io/en/stable/)(package manager) to install great_expectations .
 
 ```bash
-pip intall psycopg2
+pip intall great_expectations
 pip install pandas
 ```
 glob and os come pre-installed as they are part of python standard library.
