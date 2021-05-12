@@ -53,6 +53,9 @@ pip intall great_expectations
 Step 2:
 great_expectations init
 
+Edit Expectations via jupyter notebook:
+great_expectations suit edit {suit name}
+
 ```
 A complete guide for setting up expectations can be found at https://docs.greatexpectations.io/en/0.7.11/getting_started.html
 
