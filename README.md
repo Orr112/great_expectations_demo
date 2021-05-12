@@ -9,7 +9,6 @@ Great expectations python library for data testing.
 * [Technologies](#Technologies)
 * [Libraries](#Libraries)
 * [Install](#Install)
-* [Analysis](#Analysis)
 * [Acknowledgement](#Acknowledgement)
 
 ## Intro
@@ -48,43 +47,14 @@ Image provided by Sam Bail at Superconductive
 Use [pip](https://pip.pypa.io/en/stable/)(package manager) to install great_expectations .
 
 ```bash
+Step 1: 
 pip intall great_expectations
-pip install pandas
-```
-glob and os come pre-installed as they are part of python standard library.
 
-
-## Analysis 
-
-### Demogoraphics
-```
---Total Users
-select count(*) from users
-
---Percentage Users in Paid Level
-Select (count(*)*100) / 84  AS PercentPaidLevel from users where level = 'paid'
-
---Percent Paid User by Identified Gender
-Select (count(*)*100) / 84  AS PercentFemalePaidLevel from users where gender = 'F' and level = 'paid'
-
-Select (count(*)*100) / 84  AS PercentMale from users where gender = 'M' and level = 'paid'
-
---User Gender Breakdown
-Select (count(*)*100) / 84  AS PercentMale from users where gender = 'M'
-
-Select (count(*)*100) / 84  AS PercentFemale from users where gender = 'F'
+Step 2:
+great_expectations init
 
 ```
-### Artist/Song Analysis
-```
---Max Song Length
-select (max(duration))/60 AS MaxSongLength from songs 
-
---Percentage Song Longer than Average
-Select (count(*)*100)/72 AS PercentSongsGtAverage from artists a Join songs s on a.artist_id = s.artist_id  where duration >= 219
-
-```
+A complete guide for setting up expectations can be found at https://docs.greatexpectations.io/en/0.7.11/getting_started.html
 
 ## Acknowledgement
-- Facts and Dimensions Table layout above provide by ZenTut.
-- This project was peformed as part of the Udacity Data Engineering Nanodegree Program.
+- Information provided by the team behind Great Expectations at SuperConductive (https://www.superconductive.com/).
