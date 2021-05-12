@@ -5,25 +5,17 @@
     {
       "expectation_type": "expect_table_row_count_to_be_between",
       "kwargs": {
-        "max_value": 6,
+        "max_value": 10,
         "min_value": 5
       },
-      "meta": {
-        "BasicSuiteBuilderProfiler": {
-          "confidence": "very low"
-        }
-      }
+      "meta": {}
     },
     {
       "expectation_type": "expect_table_column_count_to_equal",
       "kwargs": {
         "value": 5
       },
-      "meta": {
-        "BasicSuiteBuilderProfiler": {
-          "confidence": "very low"
-        }
-      }
+      "meta": {}
     },
     {
       "expectation_type": "expect_table_columns_to_match_ordered_list",
@@ -36,22 +28,14 @@
           "DoB"
         ]
       },
-      "meta": {
-        "BasicSuiteBuilderProfiler": {
-          "confidence": "very low"
-        }
-      }
+      "meta": {}
     },
     {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": "AccNumber"
       },
-      "meta": {
-        "BasicSuiteBuilderProfiler": {
-          "confidence": "very low"
-        }
-      }
+      "meta": {}
     },
     {
       "expectation_type": "expect_column_min_to_be_between",
@@ -60,11 +44,7 @@
         "max_value": 12346,
         "min_value": 12344
       },
-      "meta": {
-        "BasicSuiteBuilderProfiler": {
-          "confidence": "very low"
-        }
-      }
+      "meta": {}
     },
     {
       "expectation_type": "expect_column_max_to_be_between",
@@ -73,11 +53,7 @@
         "max_value": 96542,
         "min_value": 96540
       },
-      "meta": {
-        "BasicSuiteBuilderProfiler": {
-          "confidence": "very low"
-        }
-      }
+      "meta": {}
     },
     {
       "expectation_type": "expect_column_mean_to_be_between",
@@ -86,11 +62,7 @@
         "max_value": 42341.166666666664,
         "min_value": 42339.166666666664
       },
-      "meta": {
-        "BasicSuiteBuilderProfiler": {
-          "confidence": "very low"
-        }
-      }
+      "meta": {}
     },
     {
       "expectation_type": "expect_column_median_to_be_between",
@@ -99,65 +71,14 @@
         "max_value": 33235.5,
         "min_value": 33233.5
       },
-      "meta": {
-        "BasicSuiteBuilderProfiler": {
-          "confidence": "very low"
-        }
-      }
-    },
-    {
-      "expectation_type": "expect_column_quantile_values_to_be_between",
-      "kwargs": {
-        "allow_relative_error": false,
-        "column": "AccNumber",
-        "quantile_ranges": {
-          "quantiles": [
-            0.05,
-            0.25,
-            0.5,
-            0.75,
-            0.95
-          ],
-          "value_ranges": [
-            [
-              12344,
-              12346
-            ],
-            [
-              12353,
-              12355
-            ],
-            [
-              21253,
-              21255
-            ],
-            [
-              66331,
-              66333
-            ],
-            [
-              96540,
-              96542
-            ]
-          ]
-        }
-      },
-      "meta": {
-        "BasicSuiteBuilderProfiler": {
-          "confidence": "very low"
-        }
-      }
+      "meta": {}
     },
     {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
         "column": " UserName"
       },
-      "meta": {
-        "BasicSuiteBuilderProfiler": {
-          "confidence": "very low"
-        }
-      }
+      "meta": {}
     },
     {
       "expectation_type": "expect_column_value_lengths_to_be_between",
@@ -165,11 +86,7 @@
         "column": " UserName",
         "min_value": 1
       },
-      "meta": {
-        "BasicSuiteBuilderProfiler": {
-          "confidence": "very low"
-        }
-      }
+      "meta": {}
     }
   ],
   "meta": {
