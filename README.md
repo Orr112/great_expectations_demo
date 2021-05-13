@@ -30,6 +30,7 @@ Image provided by Sam Bail at Superconductive
 ## Files
 - validation_playground.ipynb: this file contains create and insert table queries.
 - user_data: this file contains a small amount of data, which is purely for testing purposes.
+Files are in the master branch. 
 
 
 
