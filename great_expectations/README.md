@@ -16,7 +16,7 @@ Great expectations is a python library used for automating unit testing of data.
 
 A visual summation of the great expectations library:
 ![alt text](https://docs.greatexpectations.io/en/stable/_images/ge_overview.png)
-Image provide by Great Expectations website.
+Image provide by Great Expectations website. 
 
 
 
@@ -38,7 +38,7 @@ Image provided by Sam Bail at Superconductive
 - jupyter
 
 
-## Libraries
+## Libraries 
 -great expectations
 -pandas
 
@@ -47,7 +47,7 @@ Image provided by Sam Bail at Superconductive
 Use [pip](https://pip.pypa.io/en/stable/)(package manager) to install great_expectations .
 
 ```bash
-Step 1:
+Step 1: 
 pip intall great_expectations
 
 Step 2:
